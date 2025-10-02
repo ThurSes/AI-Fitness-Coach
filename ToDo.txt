@@ -1,4 +1,4 @@
 ---> Front-End das páginas sobre nos, serviços e contato
 ---> Fazer a pag de login com autenticação e banco de dados
 ---> Fazer a Interface do App
- 
+---> Tentar fzr o header nao ser fullscreen, tentar fzr igual ao do proj do heikon da venturus
