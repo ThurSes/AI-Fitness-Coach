@@ -4,7 +4,7 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Home from "./Pages/Home";
 import Login from "./Pages/Login";
-import Services from "./Pages/Services";
+import Plans from "./Pages/Plans";
 import AboutUs from "./Pages/AboutUs";
 import ContactUs from "./Pages/ContactUs";
 
@@ -14,7 +14,7 @@ const App = () => {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/services" element={<Services />} />
+        <Route path="/plans" element={<Plans />} />
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/contact" element={<ContactUs />} />
       </Routes>

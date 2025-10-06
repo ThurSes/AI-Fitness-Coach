@@ -13,10 +13,8 @@ const Header = () => {
           <Link to="/">
             <h2 className="hover:underline hover:underline-offset-4">Início</h2>
           </Link>
-          <Link to="/services">
-            <h2 className="hover:underline hover:underline-offset-4">
-              Serviços
-            </h2>
+          <Link to="/plans">
+            <h2 className="hover:underline hover:underline-offset-4">Planos</h2>
           </Link>
           <Link to="/aboutus">
             <h2 className="hover:underline hover:underline-offset-4">
