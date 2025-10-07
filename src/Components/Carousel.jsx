@@ -63,7 +63,9 @@ const Carousel = () => {
             <div className=""></div>
             <div className="absolute inset-0 bg-black/40 flex flex-col justify-center items-start p-12 text-white">
               <h2 className="text-4xl font-bold mb-4">{slide.title}</h2>
-              <p className="text-lg mb-6 max-w-lg">{slide.text}</p>
+              <p className="text-lg mb-6 max-w-lg text-secondarytext">
+                {slide.text}
+              </p>
               <a
                 href={slide.buttonLink}
                 className="bg-primary hover:bg-accent text-white font-medium px-6 py-3 rounded-lg transition-colors"
